@@ -8,9 +8,9 @@ public class Puppy {
 	{
 		puppyAge = age;
 	}
-	public int getAge(){
+	public void getAge(){
 		System.out.println("Dog age is:" + puppyAge);
-		return puppyAge;
+		
 	}
 	
 	public static void main(String args[])
@@ -22,6 +22,8 @@ public class Puppy {
 		myPuppy.getAge();
 		
 		System.out.println("Age of the Dog is:"+myPuppy.puppyAge);
-	}
+	
+			}
+	
 }
 
